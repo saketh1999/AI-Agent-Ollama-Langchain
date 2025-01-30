@@ -27,7 +27,7 @@ def add_two_numbers(a: int, b: int) -> int:
     return int(a) + int(b)
 
 def weather(loc: str):
-    api_key = "55d8251d931854e9409413d7cb4e69e4"  # Add your OpenWeatherMap API key here
+    api_key = ""  # Add your OpenWeatherMap API key here
 
     url = f"https://api.openweathermap.org/data/2.5/weather?q={loc}&appid={api_key}"
     res = requests.get(url)
